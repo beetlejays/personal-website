@@ -79,6 +79,11 @@ a {
   margin: auto;
 }
 
+.yellow__link {
+  font-family: "Poppins", sans-serif;
+  color: var(--color-secondary);
+}
+
 nav {
   width: 80%;
   height: 100px;
