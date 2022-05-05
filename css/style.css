@@ -99,14 +99,25 @@ nav a {
   color: var(--color-secondary);
   font-family: sans-serif;
   display: flex;
+  gap: 1rem;
 }
 
 .small__link li {
   list-style-type: none;
 }
 
-.small__link li a {
-  color: --color-secondary;
+.small__link a {
+  color: white;
+  display: inline-block;
+  padding: 0.5rem;
+  background-color: grey;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.small__link a:hover {
+  background-color: var(--color-secondary);
 }
 
 .header__content {
