@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
 }
 
 body {
@@ -17,21 +16,25 @@ a {
 
 :root {
   --color-primary: skyblue;
-  --color-secondary: #999;
+  --color-secondary: #e2a522;
 }
 
 h1 {
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 2rem;
+  font-family: "Bebas Neue", cursive;
+  line-height: 1;
+  color: white;
 }
 
 h2 {
   color: var(--color-secondary);
+  font-family: "Bebas Neue", cursive;
 }
 
 p {
   line-height: 1.5;
+  font-size: sans-serif;
 }
 
 a {
@@ -39,7 +42,7 @@ a {
 }
 
 .color__primary {
-  background-color: skyblue;
+  background-color: #3e3a4d;
 }
 
 .link {
@@ -66,7 +69,7 @@ nav {
   margin: auto;
   display: flex;
   align-items: center;
-  font-size: 1.4rem;
+  font-size: 1.9rem;
   justify-content: flex-end;
 }
 
@@ -75,19 +78,42 @@ nav a {
 }
 
 .navigation__links a {
-  color: white;
+  color: rgb(226, 165, 34);
   transition: 0.4s;
 }
 
 .navigation__links a:hover {
-  color: purple;
+  color: white;
   padding-left: 0.1rem;
 }
 
 .intro__text {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 
 .intro__text-large {
-  font-size: 3rem;
+  font-size: 5.5rem;
+}
+
+.small__link {
+  color: var(--color-secondary);
+  font-family: sans-serif;
+  display: flex;
+}
+
+.small__link li {
+  list-style-type: none;
+}
+
+.small__link li a {
+  color: --color-secondary;
+}
+
+.header__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50vh;
+  grid-gap: 2rem;
+  align-items: center;
+  justify-content: center;
 }
