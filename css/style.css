@@ -48,6 +48,10 @@ h3 {
   letter-spacing: 0.05rem;
 }
 
+.yellow__color {
+  color: var(--color-secondary);
+}
+
 p {
   line-height: 1.5;
   font-family: "Poppins", sans-serif;
@@ -85,7 +89,7 @@ a {
 }
 
 .yellow__numbers {
-  font-size: 5rem;
+  font-size: 4rem;
   color: var(--color-secondary);
 }
 
@@ -127,6 +131,7 @@ nav a {
   font-family: sans-serif;
   display: flex;
   gap: 1rem;
+  padding-top: 1.2rem;
 }
 
 .small__link li {
@@ -217,5 +222,22 @@ nav a {
 .skillset__container {
   width: 80%;
   margin: auto;
-  background-color: #3e3a4d;
+  background-color: white;
+}
+
+.skillset__list {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  justify-content: space-evenly;
+  padding: 4rem 0;
+  font-size: 2.3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.skillset__list li:after {
+  content: "";
+  display: block;
+  max-width: 25%;
+  border-bottom: 0.12em solid var(--color-secondary);
 }
