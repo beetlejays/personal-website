@@ -32,6 +32,7 @@ h6 {
 
 cite {
   color: white;
+  font-size: 2rem;
 }
 
 h1 {
@@ -319,6 +320,24 @@ nav a {
   font-family: "Bebas Neue", sans-serif;
   font-size: 2.5rem;
   color: var(--color-secondary);
+}
+
+.social {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  padding-top: 6rem;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.social__links {
+  width: 70px;
+  transition: 0.4s;
+}
+
+.social__links:hover {
+  filter: invert(0.5) sepia(1) hue-rotate(200deg);
 }
 
 footer {
