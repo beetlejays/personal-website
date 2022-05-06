@@ -286,9 +286,16 @@ nav a {
 .work__cv ul {
   background: #3e3a4d;
   list-style-type: none;
-  width: 300px;
+  width: 350px;
   padding: 1.2rem 1rem;
   color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.work__cv ul li:first-child {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  color: var(--color-secondary);
 }
 
 footer {
