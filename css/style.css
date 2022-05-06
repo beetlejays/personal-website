@@ -30,6 +30,10 @@ h6 {
   --white: white;
 }
 
+cite {
+  color: white;
+}
+
 h1 {
   font-family: "Bebas Neue", sans-serif;
 }
@@ -160,7 +164,7 @@ nav a {
 
 .header__content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   height: 50vh;
   grid-gap: 2rem;
   align-items: center;
@@ -178,7 +182,7 @@ nav a {
   width: 80%;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   padding: 5rem 0;
   grid-gap: 2.5rem;
 }
@@ -201,6 +205,7 @@ nav a {
   gap: 2rem;
   list-style-type: none;
   background-color: #3e3a4d;
+  flex-wrap: wrap;
 }
 
 .icons {
@@ -214,7 +219,7 @@ nav a {
   background-color: var(--color-secondary);
   display: flex;
   align-items: flex-end;
-  flex-wrap: wrap;
+
   padding: 0 0 2rem 2rem;
   font-size: 1.7rem;
   font-family: "Poppins", sans-serif;
@@ -244,6 +249,7 @@ nav a {
   padding: 4rem 0;
   font-size: 2.3rem;
   font-family: "Poppins", sans-serif;
+  flex-wrap: wrap;
 }
 
 .skillset__list li:after {
@@ -273,6 +279,8 @@ nav a {
   padding-top: 4rem;
   display: flex;
   gap: 3rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .work__cv ul {
@@ -281,4 +289,28 @@ nav a {
   width: 300px;
   padding: 1.2rem 1rem;
   color: white;
+}
+
+footer {
+  background-color: var(--color-secondary);
+}
+
+.footer__items {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  color: white;
+  align-items: center;
+  min-height: 100px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer__items a {
+  color: white;
+  transition: 0.3s;
+}
+
+.footer__items a:hover {
+  color: #2c2937;
 }
