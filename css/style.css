@@ -155,7 +155,24 @@ nav a {
 }
 
 .intro__text-large {
-  font-size: 5.5rem;
+  font-size: 7rem;
+}
+
+.sayhello {
+  font-size: 1rem;
+  background: #3e3a4d;
+  margin-top: 1.3rem;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 3px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  transition: 0.4s;
+}
+
+.sayhello:hover {
+  background-color: var(--color-secondary);
+  transform: translateX(12px);
 }
 
 .small__link {
@@ -163,6 +180,7 @@ nav a {
   font-family: sans-serif;
   display: flex;
   gap: 1rem;
+  font-size: 1.2rem;
   padding-top: 1.2rem;
 }
 
