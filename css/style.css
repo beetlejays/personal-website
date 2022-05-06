@@ -57,12 +57,17 @@ h3 {
   letter-spacing: 0.05rem;
 }
 
+.profile {
+  position: relative;
+  top: -200px;
+}
+
 .profile__container {
   position: relative;
 }
 
 .profile__picture {
-  width: 420px;
+  width: 450px;
   position: relative;
 }
 
