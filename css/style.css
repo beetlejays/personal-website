@@ -57,6 +57,15 @@ h3 {
   letter-spacing: 0.05rem;
 }
 
+.profile__container {
+  position: relative;
+}
+
+.profile__picture {
+  width: 420px;
+  position: relative;
+}
+
 .yellow__color {
   color: var(--color-secondary);
 }
@@ -72,6 +81,14 @@ a {
 
 .color__primary {
   background-color: #3e3a4d;
+}
+
+.color__secondary {
+  color: var(--color-secondary);
+}
+
+.light__grey {
+  color: #bfbfbf;
 }
 
 .link {
@@ -165,7 +182,7 @@ nav a {
 .header__content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  height: 50vh;
+  height: 30vh;
   grid-gap: 2rem;
   align-items: center;
   justify-content: center;
@@ -285,6 +302,7 @@ nav a {
 
 .work__cv ul {
   background: #3e3a4d;
+  border-left: 6px solid var(--color-secondary);
   list-style-type: none;
   width: 350px;
   padding: 1.2rem 1rem;
@@ -294,7 +312,7 @@ nav a {
 
 .work__cv ul li:first-child {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: var(--color-secondary);
 }
 
