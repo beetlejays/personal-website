@@ -84,6 +84,11 @@ a {
   color: var(--color-secondary);
 }
 
+.yellow__numbers {
+  font-size: 5rem;
+  color: var(--color-secondary);
+}
+
 nav {
   width: 80%;
   height: 100px;
@@ -206,4 +211,11 @@ nav a {
 .skillset {
   background-color: #3e3a4d;
   width: 100%;
+  padding: 4rem 0;
+}
+
+.skillset__container {
+  width: 80%;
+  margin: auto;
+  background-color: #3e3a4d;
 }
