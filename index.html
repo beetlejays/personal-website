@@ -22,14 +22,17 @@
   <body>
     <header class="color__primary">
       <nav class="container__fluid">
-        <ul class="navigation__links">
+        <ul class="navigation__links" role="Navigation">
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#">Contact</a>
         </ul>
       </nav>
-
       <div class="container__fluid">
+        <div class="profile__container">
+          <img class="profile__picture" src="img/jay-profile.png" alt="" />
+        </div>
+
         <section class="header__content">
           <div>
             <h1>
@@ -46,6 +49,7 @@
               </li>
             </ul>
           </div>
+
           <div>
             <cite>
               "Make it simple, but significant." <br />
@@ -70,16 +74,18 @@
           </p>
         </div>
         <div>
-          <p class="text__white">
+          <p class="light__grey">
             When I´m not coding you´ll find find my spending time in the gym,
             outdoors and nerding out on tech stuff :)
           </p>
 
-          <p>
+          <p class="light__grey">
             <span class="yellow__numbers">14 </span>years as a mediadesigner
           </p>
 
-          <p><span class="yellow__numbers">Now</span> as a Junior Dev</p>
+          <p class="light__grey">
+            <span class="yellow__numbers">Now</span> starting as a Junior Dev
+          </p>
         </div>
       </div>
     </section>
@@ -112,7 +118,9 @@
 
     <section class="work">
       <div class="work__container">
-        <h3 class="work__headline">Work Experience / Education</h3>
+        <h3 class="work__headline">
+          Work Experience <span class="color__secondary">/</span> Education
+        </h3>
         <div class="work__cv">
           <ul>
             <li>1999</li>
