@@ -371,6 +371,16 @@ nav a {
   min-height: 400px;
 }
 
+.contact__info {
+  list-style-type: none;
+  display: flex;
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  justify-content: space-around;
+  padding-top: 3rem;
+}
+
 footer {
   background-color: var(--color-secondary);
 }
@@ -386,11 +396,13 @@ footer {
   font-family: "Poppins", sans-serif;
 }
 
-.footer__items a {
+.footer__items a,
+.contact__info a {
   color: white;
   transition: 0.3s;
 }
 
-.footer__items a:hover {
+.footer__items a:hover,
+.contact__info a:hover {
   color: #2c2937;
 }
