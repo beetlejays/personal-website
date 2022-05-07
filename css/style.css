@@ -93,6 +93,10 @@ a {
   color: var(--color-secondary);
 }
 
+.bg__tertiary {
+  background-color: #3e3a4d;
+}
+
 .light__grey {
   color: #bfbfbf;
 }
@@ -111,7 +115,8 @@ a {
 }
 
 .container__fluid {
-  width: 80%;
+  max-width: 1200px;
+  padding: 0 2rem;
   margin: auto;
 }
 
@@ -356,6 +361,14 @@ nav a {
 
 .social__links:hover {
   filter: invert(0.5) sepia(1) hue-rotate(200deg);
+}
+
+.section__padding {
+  padding: 4rem 0;
+}
+
+#contact {
+  min-height: 400px;
 }
 
 footer {
