@@ -236,6 +236,7 @@ nav a {
 .intro__content__headline {
   color: white;
   font-size: 2.3rem;
+  font-weight: 400;
 }
 
 .intro__content__copy {
@@ -296,6 +297,7 @@ nav a {
   font-size: 2.3rem;
   font-family: "Poppins", sans-serif;
   flex-wrap: wrap;
+  font-weight: 400;
 }
 
 .skillset__list li:after {
