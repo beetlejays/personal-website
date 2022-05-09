@@ -28,6 +28,51 @@ h6 {
   --color-primary: skyblue;
   --color-secondary: #e2a522;
   --white: white;
+  --dark: #2c2937;
+  --light-dark: #3e3a4d;
+}
+
+.color__primary {
+  background-color: #3e3a4d;
+}
+
+.color__secondary {
+  color: var(--color-secondary);
+}
+
+.color__dark {
+  color: var(--dark);
+}
+
+.light__grey {
+  color: #bfbfbf;
+}
+
+.bg__light-dark {
+  background-color: var(--light-dark);
+}
+
+.bg__dark {
+  background-color: var(--dark);
+}
+
+.container {
+  width: 100%;
+}
+
+.container__fluid {
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: auto;
+}
+
+p {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 cite {
@@ -59,7 +104,7 @@ h3 {
 }
 
 .text__white {
-  color: white;
+  color: var(--white);
 }
 
 .profile {
@@ -80,31 +125,6 @@ h3 {
   color: var(--color-secondary);
 }
 
-p {
-  line-height: 1.5;
-  font-family: "Poppins", sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
-
-.color__primary {
-  background-color: #3e3a4d;
-}
-
-.color__secondary {
-  color: var(--color-secondary);
-}
-
-.bg__tertiary {
-  background-color: #3e3a4d;
-}
-
-.light__grey {
-  color: #bfbfbf;
-}
-
 .link {
   text-decoration: none;
   transition: 0.3s;
@@ -112,16 +132,6 @@ a {
 
 .link:hover {
   text-decoration: underline;
-}
-
-.container {
-  width: 100%;
-}
-
-.container__fluid {
-  max-width: 1200px;
-  padding: 0 2rem;
-  margin: auto;
 }
 
 .yellow__link {
@@ -211,7 +221,7 @@ nav a {
 .small__link a {
   color: white;
   display: inline-block;
-  padding: 0.5rem;
+  padding: 0.8rem 1rem;
   background-color: grey;
   border-radius: 4px;
   cursor: pointer;
