@@ -132,7 +132,6 @@ a {
 
 nav {
   width: 80%;
-  height: 100px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -417,9 +416,16 @@ footer {
   .profile {
     top: 0;
   }
-
   .intro__content {
     padding: 1rem 0;
+  }
+  .keyskills__content {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .keyskills__content li {
+    top: 3rem;
   }
 }
 
@@ -427,6 +433,10 @@ footer {
   .header__content {
     min-height: 50vh;
     grid-template-columns: 1fr;
+  }
+
+  .intro__text-large {
+    font-size: 5rem;
   }
 
   .profile__picture {
