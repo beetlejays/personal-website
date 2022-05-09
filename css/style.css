@@ -58,6 +58,10 @@ h3 {
   letter-spacing: 0.05rem;
 }
 
+.text__white {
+  color: white;
+}
+
 .profile {
   position: relative;
   top: -200px;
