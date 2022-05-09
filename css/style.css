@@ -139,6 +139,7 @@ nav {
   font-size: 2.5rem;
   justify-content: flex-end;
   font-family: "Poppins", sans-serif;
+  flex-wrap: wrap;
 }
 
 nav a {
@@ -211,7 +212,7 @@ nav a {
 .header__content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  height: 30vh;
+  padding: 2rem 0;
   grid-gap: 2rem;
   align-items: center;
   justify-content: center;
@@ -260,7 +261,7 @@ nav a {
   height: 20px;
 }
 
-.keyskills__content div {
+.keyskills__content li {
   width: 300px;
   height: 280px;
   background-color: var(--color-secondary);
@@ -272,7 +273,7 @@ nav a {
   font-family: "Poppins", sans-serif;
   position: relative;
   top: -40px;
-  left: 100px;
+
   box-shadow: 2px 2px 2px #b5afaf;
 }
 
@@ -381,6 +382,7 @@ nav a {
   font-family: "Poppins", sans-serif;
   justify-content: space-around;
   padding-top: 3rem;
+  flex-wrap: wrap;
 }
 
 footer {
@@ -407,4 +409,32 @@ footer {
 .footer__items a:hover,
 .contact__info a:hover {
   color: #2c2937;
+}
+
+/*    Media   */
+
+@media screen and (max-width: 855px) {
+  .profile {
+    top: 0;
+  }
+
+  .intro__content {
+    padding: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header__content {
+    min-height: 50vh;
+    grid-template-columns: 1fr;
+  }
+
+  .profile__picture {
+    width: 100%;
+    height: auto;
+  }
+
+  .intro__content {
+    grid-template-columns: 1fr;
+  }
 }
