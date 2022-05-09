@@ -137,12 +137,19 @@ a {
 nav {
   width: 80%;
   margin: auto;
-  display: flex;
   align-items: center;
   font-size: 2.5rem;
-  justify-content: flex-end;
   font-family: "Poppins", sans-serif;
   flex-wrap: wrap;
+}
+
+.navigation__links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  list-style-type: none;
 }
 
 nav a {
@@ -152,6 +159,10 @@ nav a {
 .navigation__links a {
   color: rgb(226, 165, 34);
   transition: 0.4s;
+}
+
+.navigation__links ul li a {
+  list-style-type: none;
 }
 
 .navigation__links a:hover {
