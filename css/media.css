@@ -1,0 +1,36 @@
+@media screen and (max-width: 855px) {
+  .profile {
+    top: 0;
+  }
+  .intro__content {
+    padding: 1rem 0;
+  }
+  .keyskills__content {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .keyskills__content li {
+    top: 3rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header__content {
+    min-height: 50vh;
+    grid-template-columns: 1fr;
+  }
+
+  .intro__text-large {
+    font-size: 5rem;
+  }
+
+  .profile__picture {
+    width: 100%;
+    height: auto;
+  }
+
+  .intro__content {
+    grid-template-columns: 1fr;
+  }
+}

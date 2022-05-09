@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+}
+
+.container__fluid {
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: auto;
+}
+
+.color__primary {
+  background-color: #3e3a4d;
+}
+
+.color__secondary {
+  color: var(--color-secondary);
+}
+
+.color__dark {
+  color: var(--dark);
+}
+
+.light__grey {
+  color: #bfbfbf;
+}
+
+.bg__secondary {
+  background-color: var(--color-secondary);
+}
+
+.bg__light-dark {
+  background-color: var(--light-dark);
+}
+
+.bg__dark {
+  background-color: var(--dark);
+}
+
+.text__white {
+  color: var(--white);
+}
+
+.yellow__color {
+  color: var(--color-secondary);
+}
