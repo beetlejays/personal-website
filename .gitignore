@@ -1,1 +1,11 @@
+# Node artifact files
+node_modules/
+
+dist/
+
+
+# Htaccess
+.htaccess
+
+
 .DS_Store
